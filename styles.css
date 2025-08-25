@@ -1,0 +1,56 @@
+/* Reset default styles */
+  - {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set font for the entire page */
+    line-height: 1.6; /* Improve readability */
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Header styles */
+.header {
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text color */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding inside the header */
+}
+
+.navigation {
+    margin-top: 10px; /* Space above navigation */
+}
+
+.navigation a {
+    color: white; /* White link text */
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main content styles */
+.main-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out cards evenly */
+    padding: 20px; /* Padding around the main content */
+}
+
+.card {
+    background: white; /* White background for cards */
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside cards */
+    margin: 10px; /* Space around each card */
+    width: 250px; /* Fixed width for cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer styles */
+.footer {
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Padding around footer */
+    background: #333; /* Dark background for footer */
+    color: white; /* White text color */
+    margin-top: 20px; /* Space above the footer */
+}
